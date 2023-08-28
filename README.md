@@ -16,7 +16,7 @@ The following is a brief overview of the methodology used in this project:
 
 1.  Import the necessary libraries - OpenCV, Numpy, and Pandas
 2.  Load the input image in RGB format and convert it into a pandas dataframe
-3.  Determine the most frequent color present in the image using KMeans clustering algorithm
+3.  Determine the color present in the image using dataset provided in the csv file
 4.  Map the RGB color value to its corresponding name using a dataframe of color names
 5.  Display the input image along with the identified color and its name
 
